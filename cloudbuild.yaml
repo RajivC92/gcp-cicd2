@@ -3,7 +3,6 @@ steps:
   entrypoint: 'bash'
   args: ['-c', 'gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy']
 options:
-  logging : CLOUD_LOGGING_ONLY
-  logsBucket: gs://cicdbuildlogsrajiv2025
+  logging : REGIONAL_USER_OWNED_BUCKET
   defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
 timeout: 1600s
