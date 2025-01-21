@@ -5,4 +5,5 @@ steps:
 options:
   logging : CLOUD_LOGGING_ONLY
   logsBucket: gs://cicdbuildlogsrajiv2025
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
 timeout: 1600s
