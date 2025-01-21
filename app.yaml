@@ -1,1 +1,4 @@
-runtime: python37
+runtime: python
+runtime_config:
+    operating_system: "ubuntu22"
+
